@@ -1,0 +1,208 @@
+.review-container{
+    /* background: linear-gradient(90deg, #0D47A1 0%, #1976D2 48%, #42A5F5 100%); */
+    background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 1%, #e3f2fd 78%, #e3f2fd 100%);
+    
+    height: fit-content;
+}
+
+.review-title{
+    text-align: center;
+    margin-bottom: 2rem;
+    /* color: white; */
+    padding-top: 5rem;
+    font-size: 3rem;
+}
+.review-loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    width: 90vw;
+    height: 50vh;
+}
+.reviews-list{
+    
+    padding: 1rem;
+    /* background-color: antiquewhite; */
+    display: grid;
+    grid-template-columns: 1fr   ;
+    
+    row-gap: 2rem;
+    
+    margin-top: 3rem;
+    width: 90vw;
+    margin: 0 auto;
+    
+    /* text-align: justify; */
+
+}
+.review-card{
+    /* width: 20rem; */
+    /* height: 10rem; */
+    background-color: white;
+
+    padding: 1rem;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #BBDEFB;
+    
+    
+}
+.review-card p{
+    margin-bottom: 0.5rem;
+}
+.name-date{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E3F2FD;
+    margin-bottom: 0.5rem;
+}
+.enter-review-title{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+ .hospital-input{
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    border: 1px solid #ddd;
+ }
+
+ .link-input{
+    padding: 0.5rem;
+border-radius: 5px;
+margin-bottom: 2rem;
+border: 1px solid #ddd;
+
+
+ }
+ 
+ .contact-input{
+    padding: 0.5rem;
+border-radius: 5px;
+border: 1px solid #ddd;
+margin-bottom: 2rem;
+
+
+ }
+.review-inputs{
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+    padding: 4rem;
+    width: 80vw;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 9rem;
+    
+}
+.hospital-name{
+font-size: 1.5rem;
+}
+.set-one{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.set-one label{
+    font-size: 1rem;
+}
+.set-two label{
+    font-size: 1rem;
+}
+.set-two{
+    display: flex;
+    flex-direction: column;
+    /* background-color: bisque; */
+    width: 40%;;
+
+}
+.post-btn{
+    padding: 12px 24px;
+    border-radius: 5px;
+    background-color: #135a95;
+    border: none;
+    box-shadow: 0px 0px 8px #ddd;
+    font-weight: bold;
+    color: #FFFFFF;
+
+}
+.post-btn:hover{
+    cursor: pointer;
+    /* color: white;
+    background: linear-gradient(90deg, #0D47A1 0%, #1976D2 48%, #42A5F5 100%);
+    transition: 0.4s;*/ 
+}
+.post-btn:disabled{
+    background-color: #ddd;
+    color: #7b7c7d;
+    cursor: not-allowed;
+}
+.post-btn-container{
+/* background-color: #BBDEFB;  */
+/* display: flex; */
+/* width: 80vw; */
+/* justify-content: end; */
+margin-bottom: 2rem;
+padding: 2rem;
+/* background-color: #BBDEFB;  */
+ margin: 0 auto; 
+}
+.ql-editor{
+   height: 7rem; 
+}
+.review-card img{
+    width: 30%;
+
+}
+
+.star{
+    font-size: 1.5rem;
+    margin-left: 0.2rem;
+    color: rgb(251, 202, 3);
+    
+}
+
+@media only screen and (max-width: 1100px){
+    .reviews-list{
+        grid-template-columns: 1fr;
+        margin-top: 4rem;
+        width: 100vw;
+    row-gap: 2rem;
+
+    }
+    .review-inputs{
+        flex-direction: column;
+        width: 90vw;
+        padding: 2rem;
+    }
+    .set-one{
+        width: 100%;
+    }
+    .set-two{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    .post-btn-container{
+        justify-content: center;
+        margin: 0 auto;
+    
+    }
+    .enter-review-title{
+        padding: 1rem;
+    }
+    .review-card img{
+        width: 50%;
+    
+    }
+    .star{
+        font-size: 1rem;
+        
+    }
+    .review-card{
+       font-size: 0.8rem;
+    }
+    
+}

@@ -1,0 +1,177 @@
+.bmi-container{
+    height: 100vh;
+    /* background: linear-gradient(90deg, #0D47A1 0%, #1976D2 48%, #42A5F5 100%) */
+    /* background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 1%, #e3f2fd 78%, #e3f2fd 100%); */
+    
+}
+.bmi-navigation{
+    margin-bottom: 0.7rem;
+}
+.bmi-display{
+padding: 3rem 0rem 8rem 0rem;
+}
+.bmi-content{
+  /* padding: 5%; */
+width: 70vw;
+/* margin-bottom: 5rem; */
+
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+height: 75vh;
+border-radius: 5px;
+box-shadow: 0px 0px 8px #BBDEFB;
+}
+.bmi-text{
+    
+    width: 50%;
+    padding: 2rem;
+    /* color: white; */
+    /* background-color: #E3F2FD; */
+}
+.bmi-title{
+    margin-bottom: 3rem;
+    text-align:center;
+    font-size: 3rem;
+    /* color: white; */
+}
+.clinical-title{
+    margin-bottom: 1rem;
+
+}
+.par-one{
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+.par-two{
+    font-size: 1.2rem;
+    
+}
+
+.calculator{
+    padding: 2rem;
+  background-color: white;
+  width: 50%;
+}
+.calc-title{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.calculator form{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+    margin-bottom: 25%;
+}
+.height-input{
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid #c0c5c9;
+    box-shadow: 0px 0px 8px #BBDEFB;
+}
+.mass-input{
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid #c0c5c9;
+    box-shadow: 0px 0px 8px #BBDEFB;
+}
+.calculate-btn{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #0D47A1;
+    color: white;
+    /* font-weight: 600; */
+}
+.calculate-btn:hover{
+    cursor: pointer;
+    background-color:#BBDEFB ;
+    color: black;
+    transition: 0.4s;
+}
+
+.bmi{
+text-align: center;
+}
+
+@media only screen and (max-width: 1100px){
+    .bmi-container{
+        height: fit-content;
+    }
+    .bmi-content{
+        width: 85vw;
+        box-shadow: none;
+    }
+    /* .bmi-text{
+        display: none;
+    } */
+    /* .calculator{
+        padding: 0;
+        
+    }*/
+    .bmi-display{
+        padding: 1.5rem 0rem 4rem 0rem;
+        }
+    
+    .calculator form{
+        width: 85%; 
+        padding: 0rem;
+        
+    }
+    .bmi-title{
+        margin-top: 1rem;
+font-size: 2rem;
+margin-bottom: 2rem;
+padding: 1rem;
+    }
+    .clinical-title{
+        font-size: 1rem;
+    }
+    .bmi-content{
+      width: 100vw;
+      flex-direction: column;
+    height: fit-content;
+      }
+      .bmi-text{
+        width: 90%;
+        /* background-color: antiquewhite; */
+        padding: 0rem;
+        margin: 0 auto;
+      }
+      .par-one{
+        font-size: 0.8rem;
+        /* margin-bottom: 1.2rem; */
+    }
+    .par-two{
+        font-size: 0.8rem;
+        margin-bottom: 2.2rem;
+    }
+    .calculator{
+        padding: 0rem;
+      /* background-color: white; */
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 2.5rem;
+/* box-shadow: 0px 0px 8px #ddd; */
+box-shadow: 0px 0px 8px #BBDEFB;
+
+
+    }
+    .calc-title{
+        margin-top: 1.2rem;
+        font-size: 1.2rem;
+    }
+    .calculator form{
+        margin-bottom: 10%;
+    }
+    .bmi{
+        margin-bottom: 2rem;
+    }
+}

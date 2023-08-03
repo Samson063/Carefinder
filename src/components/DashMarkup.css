@@ -1,0 +1,73 @@
+.dash-markup-container{
+    width: 100vw;
+    height: 100vh;
+    /* background-color:#E3F2FD ; */
+    display: flex;
+}
+.dash-markup-content{
+    margin: 10px;
+    width: 69vw;
+    
+    
+}
+
+.loader{
+    /* text-align: center; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    height: 100vh;
+}
+.delete-btn{
+    border: none;
+    background-color: transparent;
+    color: red;
+    font-size: 1.2rem;
+}
+.delete-btn:hover{
+    cursor: pointer;
+}
+.reviews-table{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+thead{
+    background-color: #E3F2FD;
+
+}
+th{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #0D47A1;;
+    font-size: 0.9rem;
+    padding: 0.4rem;
+}
+td{
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 0.8rem;
+    /* border-bottom: 1px solid grey; */
+}
+.reviews-table{
+    width: 100%;
+}
+tbody img{
+    width: 40%;
+}
+
+.reviews-table tbody tr:nth-of-type(even) {
+    background-color: #eeeeee;
+}
+
+@media only screen and (max-width: 1100px){
+    .dash-markup-container{
+        flex-direction: column;
+    }
+    .content-management-header{
+        display: none;
+    }
+    
+  .dash-markup-content{
+    width: 100vw;
+  }
+}
